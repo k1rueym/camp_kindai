@@ -1,0 +1,136 @@
+@charset "utf-8";
+
+/* common */
+body {
+  margin: 0;
+}
+
+img {
+  vertical-align: bottom;
+}
+
+h1,
+p {
+  margin: 0;
+}
+
+/* header */
+header .logo {
+  border: 2px solid black;
+  box-shadow: 10px 5px 5px gray;
+}
+
+header .container {
+  margin: 20px auto;
+  width: 400px;
+  margin: 0 auto;
+  padding: 32px;
+  display: flex block;
+  align-items: center;
+}
+
+header h1 {
+  text-align: center;
+}
+
+header p {
+  font-size: 16px;
+  text-align: center;
+  padding: 16px;
+}
+
+.group {
+  margin-bottom: 10px;
+}
+
+header p span {
+  color: red;
+}
+
+.table {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  background: lightgray;
+}
+
+header ul {
+  list-style: none;
+  margin: 0 200px;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.guess {
+  margin-top: 30px;
+}
+
+/* main */
+main .container {
+  width: 400px;
+  margin: 16px auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 100px 0;
+}
+
+main button {
+  box-shadow: 10px 5px 5px gray;
+}
+
+/* footer */
+footer .container {
+  text-align: center;
+}
+
+footer .container h1 {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  background: lightgray;
+}
+
+footer .container img {
+  margin-bottom: 50px;
+  border: 1px solid black;
+}
+
+/* 先頭に戻る */
+#pagetop {
+  position:fixed;
+  bottom:7px;
+  right:7px;
+  padding:10px 12px;
+  color: #353535; /* 文字色 */
+  font-size:16px;
+  text-decoration:none;
+  background: linear-gradient(
+  -45deg,
+  #fff 25%,
+  #f4f4ed 25%, #f4f4ed 50%,
+  #fff 50%, #fff 75%,
+  #f4f4ed 75%, #f4f4ed
+);
+background-size: 4px 4px; 
+border: 3px solid #c9c19f; /* ボーダーの色 */
+border-radius: 50%; /* ボタンの丸み */
+opacity: 0.6; /* ボタンの透明度 */
+z-index: 99;
+}
+
+/* ページトップへ戻るボタン：ホバー時 */
+#pagetop:hover {
+  color: #ffffff; /* 文字色 */
+  background:#c9c19f;/* 背景色 */
+}
+
+.footer-list {
+  background: #353535;
+  text-align: center;
+  padding: 60px 0;
+}
+
+.abema {
+  margin: 0 auto;
+  border-radius: 8px;
+  display: flex;
+}

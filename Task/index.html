@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="favicon32.png">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <title>Task</title>
+  </head>
+
+  <body>
+
+    <!-- 概要 -->
+    <header>
+      <div class="container">
+        <a href="https://www.google.com/search?q=%E3%83%AF%E3%83%BC%E3%83%AB%E3%83%89%E3%82%AB%E3%83%83%E3%83%97%E3%80%80&source=lmns&bih=914&biw=840&rlz=1C5CHFA_enJP1031JP1031&hl=ja&sa=X&ved=2ahUKEwjm26fLysv7AhUoTPUHHak9CPEQ_AUoAHoECAEQAA#sie=lg;/m/0fp_8fm;2;/m/030q7;mt;fp;1;;;" target="_blank">
+          <img class="logo" src="https://afpbb.ismcdn.jp/mwimgs/c/0/810wm/img_c08ea80a2bd81d1bf386a0d0c0eaafd658595.jpg"
+          alt="Qatar World Cup"
+          width="400" height="200">
+        </a>
+    </div>
+    <div class="choices">
+      <h1>グループステージ突破予想</h1>
+      <p class="group">グループ<span>E</span></p>
+      <div class="table">
+        <p class="check">↓各国の詳細をチェック↓</p>
+        <ul>
+          <li>
+            <a href="https://www.google.com/search?q=W%E6%9D%AF&rlz=1C5CHFA_enJP1031JP1031&oq=W%E6%9D%AF&aqs=chrome.0.69i59j0i131i433i512j0i131i433j0i131i433i512j0i131i433j0i3j0i131i433l4.2723j1j7&sourceid=chrome&ie=UTF-8#sie=t;/m/02w64f;2;/m/030q7;mt;fp;1;;;">
+              <img src="https://ssl.gstatic.com/onebox/media/sports/logos/5hLkf7KFHhmpaiOJQv8LmA_48x48.png" alt="Spain" class="spain" width="120" height="120">
+            </a>
+          </li>
+          <li>
+            <a href="https://www.google.com/search?q=%E3%83%AF%E3%83%BC%E3%83%AB%E3%83%89%E3%82%AB%E3%83%83%E3%83%97%E3%80%80&source=lmns&bih=914&biw=840&rlz=1C5CHFA_enJP1031JP1031&hl=ja&sa=X&ved=2ahUKEwjm26fLysv7AhUoTPUHHak9CPEQ_AUoAHoECAEQAA#sie=t;/m/03xh50;2;;mt;fp;1;;;" target="_blank">
+              <img src="https://ssl.gstatic.com/onebox/media/sports/logos/by4OltvtZz7taxuQtkiP3A_48x48.png" alt="Japan" class="japan" width="120" height="120">
+            </a>
+          </li>
+          <li>
+            <a href="https://www.google.com/search?q=%E3%83%AF%E3%83%BC%E3%83%AB%E3%83%89%E3%82%AB%E3%83%83%E3%83%97%E3%80%80&source=lmns&bih=914&biw=840&rlz=1C5CHFA_enJP1031JP1031&hl=ja&sa=X&ved=2ahUKEwjm26fLysv7AhUoTPUHHak9CPEQ_AUoAHoECAEQAA#sie=t;/m/01l3wr;2;;mt;fp;1;;;" target="_blank">
+              <img src="https://ssl.gstatic.com/onebox/media/sports/logos/h1FhPLmDg9AHXzhygqvVPg_48x48.png" alt="Germany" class="germany" width="120" height="120">
+            </a>
+          </li>
+          <li>
+            <a href="https://www.google.com/search?q=%E3%83%AF%E3%83%BC%E3%83%AB%E3%83%89%E3%82%AB%E3%83%83%E3%83%97%E3%80%80&source=lmns&bih=914&biw=840&rlz=1C5CHFA_enJP1031JP1031&hl=ja&sa=X&ved=2ahUKEwjm26fLysv7AhUoTPUHHak9CPEQ_AUoAHoECAEQAA#sie=t;/m/03zb6t;2;;mt;fp;1;;;" target="_blank">
+              <img src="https://ssl.gstatic.com/onebox/media/sports/logos/ixZiM5pj2IvvYc15k-zfeQ_48x48.png" alt="Costa Rica" class="costarica" width="120" height="120">
+            </a>
+          </li>
+        </ul>
+      </div>
+      
+      <h1 class="guess">あなたの予想は...</h1>
+    </div>
+  </header>
+
+    <!-- 予想画面 -->
+    <main>
+      <div class="container">
+        <button id="spain">Spain</button>
+        <button id="japan">Japan</button>
+        <button id="germany">Germany</button>
+        <button id="costarica">Costa Rica</button>
+      </div>
+    </main>
+    
+    <!-- 試合予定 -->
+    <footer>
+      <div class="container">
+        <h1>試合予定</h1>
+        <p class="watch">↓視聴はこちら↓</p>
+
+        <h3>日本VSコスタリカ</h3>
+        <a href="https://abema.tv/live-event/0d62c9f4-e09a-4f22-bc6c-8ff450280d99?utm_medium=web&utm_source=google&utm_campaign=vita_worldcup_japan_costarica_1127_ap_free_live-event_0d62c9f4-e09a-4f22-bc6c-8ff450280d99" target="_blank">
+          <img src="https://ssl.gstatic.com/onebox/media/sports/videos/vita/_SORMKdiD3KFFIOi_768x432.jpg" alt="日本VSコスタリカ">
+        </a>
+
+        <h3>スペインVSドイツ</h3>
+        <a href="https://abema.tv/live-event/6a61fff0-5c3b-4309-8f6b-56650034b5b0?utm_medium=web&utm_source=google&utm_campaign=vita_worldcup_spain_germany_1128_ap_free_live-event_6a61fff0-5c3b-4309-8f6b-56650034b5b0" target="_blank">
+          <img src="https://ssl.gstatic.com/onebox/media/sports/videos/vita/JhRRNZtADyNZoH2x_768x432.jpg" alt="スペインVSドイツ">
+        </a>
+
+        <h3>日本VSスペイン</h3>
+        <a href="https://abema.tv/live-event/8f7fe9e8-a6ef-4590-b8c2-a221f6fd1f0a?utm_medium=web&utm_source=google&utm_campaign=vita_worldcup_japan_spain_1202_ap_free_live-event_8f7fe9e8-a6ef-4590-b8c2-a221f6fd1f0a" target="_blank">
+          <img src="https://ssl.gstatic.com/onebox/media/sports/videos/vita/jl2Q5pm5C2eseT2C_768x432.jpg" alt="日本VSスペイン">
+        </a>
+
+        <h3>コスタリカVSドイツ</h3>
+        <a href="https://abema.tv/live-event/304c4c58-7504-4eb9-a715-d0056eff1f3d?utm_medium=web&utm_source=google&utm_campaign=vita_worldcup_costarica_germany_1202_ap_free_live-event_304c4c58-7504-4eb9-a715-d0056eff1f3d" target="_blank">
+          <img src="https://ssl.gstatic.com/onebox/media/sports/videos/vita/9vwUVBftOnOhOnHM_768x432.jpg" alt="コスタリカVSドイツ">
+        </a>
+      </div>
+      <section class="footer-list">
+        <a href="https://abema.tv/video/genre/fifaworldcup" class="abema" target="_blank">
+          <img src="data:image/png;base64,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" alt="" width="200" height="80" class="abema">
+        </a>
+      </section>
+      
+      <!-- トップへ -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script> 
+<script>
+$(function () {
+   /** ページトップ処理 **/
+   // スクロールした場合
+  $(window).scroll(function() {
+       // スクロール位置が200を超えた場合
+      if ($(this).scrollTop() > 200) {
+          $('#pagetop').fadeIn();
+      } else {
+           // ページトップへをフェードアウト
+          $('#pagetop').fadeOut();
+      }
+  });
+
+   // ページトップクリック
+  $('#pagetop').click(function() {
+       // ページトップへスクロール
+      $('html, body').animate({
+          scrollTop: 0
+      }, 300);
+      return false;
+  });
+})(jQuery);
+</script>
+
+<a id="pagetop" href="#top" class="page_top" style="display: none;"><i class="fa fa-arrow-up fa-3x" aria-hidden="true"></i></a>
+    </footer>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
